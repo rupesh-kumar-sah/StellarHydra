@@ -9,8 +9,6 @@ build/
 venv/
 
 # Environment and secrets
-.env
-.env.local
 
 # Test and tooling
 .pytest_cache/
@@ -21,10 +19,11 @@ htmlcov/
 
 # IDE
 .idea/
-.vscode/
 
 # LangGraph diagrams
 *.png
 
 # Docker
 .docker/
+config.bat
+node_modules
